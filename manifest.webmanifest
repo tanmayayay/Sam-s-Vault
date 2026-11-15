@@ -1,0 +1,15 @@
+{
+  "name": "Sam’s Vault",
+  "short_name": "Sam’s Vault",
+  "description": "Your passwords, encrypted on your own phone.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F3F7",
+  "theme_color": "#3D5CF5",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
