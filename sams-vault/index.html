@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Strict security policy: only this site's own files may run, and the app may not
+       connect to ANY server (connect-src 'none'), so nothing typed can ever be sent out. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3D5CF5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Sam’s Vault">
+  <meta name="format-detection" content="telephone=no">
+  <title>Sam’s Vault</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app"><div class="boot"></div></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="cover" class="cover" aria-hidden="true"><img class="logo xl" src="logo.svg" alt="" width="92" height="92"><b>Sam’s Vault</b></div>
+  <noscript>Sam’s Vault needs JavaScript turned on.</noscript>
+</body>
+</html>
